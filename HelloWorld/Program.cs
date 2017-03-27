@@ -11,6 +11,8 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World");
+            var data = Console.ReadLine();
+            Console.WriteLine(string.Format("This is what you typed : '{0}'", data));
             Console.ReadLine();
         }
     }
